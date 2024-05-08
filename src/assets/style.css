@@ -1,0 +1,36 @@
+.logo{
+    display: flex;
+    align-items: center;
+    color: #34e7f8;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo i{
+    color: var(--main-color);
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.logo span{
+    color: #fff;
+}
+
+.form-label {
+    font-weight: bold;
+    font-size: large;
+}
+
+.form-wrapper {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+  }
+
+.title {
+    text-align: center;
+    color: #34e7f8;
+}
+
+body {
+}
