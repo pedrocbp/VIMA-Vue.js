@@ -6,7 +6,7 @@ let num = ref(0)
 </script>
 <template>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body">
+<nav class="navbar navbar-expand-lg navbar-dark border-bottom border-body">
   <div class="container-fluid">
     <router-Link class="navbar-brand" to="/"><h1 class="logo">VIMA<span>STORE</span></h1></router-Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@ let num = ref(0)
           <router-Link class="nav-link" aria-current="page" to="/about">Sobre</router-Link>
         </li>
         <li class="nav-item">
-          <router-Link class="nav-link" aria-current="page" to="/pedro">Contato</router-Link>
+          <router-Link class="nav-link" aria-current="page" to="/contact">Contato</router-Link>
         </li>
       </ul>
     </div>
@@ -31,7 +31,7 @@ let num = ref(0)
   <router-view></router-view>
 </div>
 
-<footer class="bg-dark text-light">
+<footer class="text-light">
   <div>
     Unimar | ADS | {{ new Date().getFullYear() }}
   </div>
@@ -39,6 +39,12 @@ let num = ref(0)
 
 </template>
 <style>
+
+
+.navbar {
+  background-color: #00474F;
+}
+
 footer{
   position: fixed;
   bottom: 0;
@@ -47,6 +53,7 @@ footer{
   align-items: center;
   justify-content: center;
   height: 50px;
+  background-color: #00474F;
 }
 
 
