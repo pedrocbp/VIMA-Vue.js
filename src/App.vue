@@ -33,7 +33,7 @@ let num = ref(0)
 
 <footer class="text-light">
   <div>
-    Unimar | ADS | {{ new Date().getFullYear() }}
+    <p>Copyright©2024, VIMA STORE. Todos os direitos reservados.</p>
   </div>
 </footer>
 
@@ -54,6 +54,7 @@ footer{
   justify-content: center;
   height: 50px;
   background-color: #00474F;
+  font-size: small;
 }
 
 
