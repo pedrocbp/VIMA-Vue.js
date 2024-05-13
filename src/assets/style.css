@@ -36,13 +36,21 @@ body {
 
 .title {
     text-align: center;
-    color: #34e7f8;
+    color: #00474F;
 }
 
 .form-label {
     color: #000000;
 }
 
-.contact-image {
-    
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+.line-title {
+    border-top: 8px solid #34e7f8; 
+    margin-bottom: 20px;
+    margin-top: 0px;
+
 }

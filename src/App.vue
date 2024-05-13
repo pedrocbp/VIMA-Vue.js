@@ -54,7 +54,7 @@ footer{
   justify-content: center;
   height: 50px;
   background-color: #00474F;
-  font-size: small;
+  font-size:small;
 }
 
 
