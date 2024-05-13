@@ -28,9 +28,9 @@ import { onMounted, reactive, ref } from 'vue';
               <label for="exampleFormSelect" class="form-label">Assunto</label>
               <select class="form-select" aria-label="Default select example">
                 <option selected>Assunto</option>
-                <option value="1">Dúvidas</option>
-                <option value="2">Dúvidas</option>
-                <option value="3">Dúvidas</option>
+                <option value="1">Reembolso</option>
+                <option value="2">Previsão de entrega</option>
+                <option value="3">Dúvidas/Reclamações</option>
               </select>
             </div>
             <div class="mb-3">
