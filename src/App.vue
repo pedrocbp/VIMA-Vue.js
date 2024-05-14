@@ -23,6 +23,9 @@ let num = ref(0)
         <li class="nav-item">
           <router-Link class="nav-link" aria-current="page" to="/contact">Contato</router-Link>
         </li>
+        <li class="nav-item nav-car ml-auto">
+          <router-Link class="nav-link" aria-current="page" to="/Car"><i class="pi pi-shopping-cart ml-auto" style="font-size: 1.5rem"></i></router-Link>
+        </li>
       </ul>
     </div>
   </div>
@@ -30,13 +33,6 @@ let num = ref(0)
 <div class="main">
   <router-view></router-view>
 </div>
-
-<footer class="text-light">
-  <div>
-    <p>Copyright©2024, VIMA STORE. Todos os direitos reservados.</p>
-  </div>
-</footer>
-
 </template>
 <style>
 
@@ -47,7 +43,7 @@ let num = ref(0)
 
 footer{
   position: fixed;
-  bottom: 0;
+  bottom:  0;
   width: 100%;
   display: flex;
   align-items: center;
