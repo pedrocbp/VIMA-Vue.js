@@ -36,7 +36,7 @@ body {
 
 .title {
     text-align: center;
-    color: #00474F;
+    color: #000000;
 }
 
 .form-label {
@@ -52,5 +52,11 @@ body {
     border-top: 8px solid #34e7f8; 
     margin-bottom: 20px;
     margin-top: 0px;
+}
 
+.cart-img {
+    width: 50px;
+    position: fixed;
+    right: 15px;
+    top: 10px;
 }

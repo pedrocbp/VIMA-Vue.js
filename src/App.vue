@@ -22,7 +22,7 @@
             <router-Link class="nav-link" aria-current="page" to="/contact">Contato</router-Link>
           </li>
           <li class="nav-item nav-car ml-auto">
-          <router-Link class="nav-link" aria-current="page" to="/cart"><i class="pi pi-shopping-cart ml-auto" style="font-size: 1.5rem"></i></router-Link>
+          <router-Link class="nav-link" aria-current="page" to="/cart"><img class="cart-img" src="/src/assets/images/cart.svg"></router-Link>
         </li>
         </ul>
       </div>
