@@ -1,10 +1,10 @@
+<script setup>
+import Cart from '@/components/Cart.vue';
+
+</script>
+
 <template>
-    <div class="about">
-      <h1>Carrinho</h1>
-    </div>
-  </template>
-  
-  <style>
-  
-  </style>
-  
+<div>
+  <Cart />
+</div>
+</template>

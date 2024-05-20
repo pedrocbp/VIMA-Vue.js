@@ -5,7 +5,7 @@ let characters = reactive(ref([]));
 
 <template>
   <main>
-    OI
+    <center><h1>HOME</h1></center>
   </main>
 </template>
 
