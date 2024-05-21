@@ -39,7 +39,7 @@ import Button from '@/components/Button.vue';
             alt="" />
           <h6 lass="card-title">Camiseta Heavy Oversized Brunx Ind – Roxa</h6>
           <p class="product-price"> <b>R$ 89,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@ import Button from '@/components/Button.vue';
             alt="" />
           <h6 lass="card-title">Camiseta Heavy Oversized Brunx Ind – Verde Floresta</h6>
           <p class="product-price"> <b>R$ 89,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@ import Button from '@/components/Button.vue';
           <img src="https://brunxind.com/wp-content/uploads/2023/05/heavy-oversized-chumbo-5-1-700x1050.jpg" alt="" />
           <h6 lass="card-title">Camiseta Heavy Oversized Brunx Ind – Chumbo</h6>
           <p class="product-price"> <b>R$ 89,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@ import Button from '@/components/Button.vue';
             alt="" />
           <h6 lass="card-title">Camiseta Heavy Oversized Brunx Ind – Marrom</h6>
           <p class="product-price"> <b>R$ 89,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@ import Button from '@/components/Button.vue';
             alt="" />
           <h6 lass="card-title">Cropped Regular Brunx Ind <br>– Preto</h6>
           <p class="product-price"> <b>R$ 49,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -105,7 +105,7 @@ import Button from '@/components/Button.vue';
           <img src="https://brunxind.com/wp-content/uploads/2024/04/brunx-ind-cropped-regular-verde-3.jpg" alt="" />
           <h6 lass="card-title">Cropped Regular Brunx Ind <br>– Verde Água</h6>
           <p class="product-price"> <b>R$ 49,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -116,7 +116,7 @@ import Button from '@/components/Button.vue';
           <img src="https://brunxind.com/wp-content/uploads/2024/04/brunx-ind-cropped-regular-rosa-3.jpg" alt="" />
           <h6 lass="card-title">Cropped Regular Brunx Ind <br>– Rosa Pink</h6>
           <p class="product-price"> <b>R$ 49,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -128,7 +128,7 @@ import Button from '@/components/Button.vue';
             alt="" />
           <h6 lass="card-title">Cropped Regular Brunx Ind <br>– Off White</h6>
           <p class="product-price"> <b>R$ 49,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -146,7 +146,7 @@ import Button from '@/components/Button.vue';
             alt="" />
           <h6 lass="card-title">Bermuda Moletom Streetwear <br>– Bordô</h6>
           <p class="product-price"> <b>R$ 89,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@ import Button from '@/components/Button.vue';
           <img src="https://brunxind.com/wp-content/uploads/2022/04/bermuda-moletom-brunx-ind-preto-3.jpg" alt="" />
           <h6 lass="card-title">Bermuda Cargo Streetwear Brunx Ind – Preta</h6>
           <p class="product-price"> <b>R$ 89,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -166,9 +166,9 @@ import Button from '@/components/Button.vue';
       <div class="card">
         <div class="card-body">
           <img src="https://brunxind.com/wp-content/uploads/2024/02/bermuda-moletom-brunx-ind-marrom-2.jpg" alt="" />
-          <h6 lass="card-title">Camiseta Basic Streetwear Brunx Ind <br>– Marrom</h6>
+          <h6 lass="card-title">Camiseta Basic Streetwear <br>– Marrom</h6>
           <p class="product-price"> <b>R$ 89,90</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>
@@ -179,7 +179,7 @@ import Button from '@/components/Button.vue';
           <img src="https://brunxind.com/wp-content/uploads/2024/02/bermuda-moletom-brunx-ind-off-white-3.jpg" alt="" />
           <h6 lass="card-title">Bermuda Moletom Streetwear <br>– Off White</h6>
           <p class="product-price"> <b>R$ 89,99</b></p>
-          <a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          <router-link class="nav-link" aria-current="page" to="/product"><a style="background-color: #212529; border: none;" href="#" class="btn btn-primary">Adicionar ao carrinho</a></router-link>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import { ref } from 'vue'
 </script>
 
 <template>
-    <button class="button">Ver Agora &#8594;</button>
+    <router-link class="nav-link" aria-current="page" to="/product"><button class="button">Ver Agora &#8594;</button></router-link>
 </template>
 
 <style scoped>

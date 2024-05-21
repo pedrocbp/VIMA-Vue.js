@@ -11,9 +11,6 @@
             <router-link class="nav-link" aria-current="page" to="/">Inicio</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" to="/product">Produto-teste</router-link>
-          </li>
-          <li class="nav-item">
             <router-link class="nav-link" aria-current="page" to="/contact">Contato</router-link>
           </li>
         </ul>
